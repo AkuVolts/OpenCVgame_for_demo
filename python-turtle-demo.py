@@ -3,7 +3,7 @@ import turtle
 import time
 
 # Set up the screen
-turtle.setup(800, 600)
+turtle.setup(800, 800)
 turtle.title("Python Turtle Graphics Demo")
 
 # Set up the turtle
@@ -16,16 +16,28 @@ turtle.pensize(1)
 # make the turtle
 turtle = turtle.Turtle()
 
+turtle.left(180)
+turtle.forward(100)
+turtle.right(180)
 turtle.forward(100)
 turtle.right(90)
-turtle.color("red")
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
+turtle.forward(100)
 turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
 
+
+# for copy paste
+# turtle.left(90)
+# turtle.forward(300)
+# turtle.right(180)
+# turtle.color("red")
 
 time.sleep(20)
 
